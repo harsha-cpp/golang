@@ -6,8 +6,11 @@ import (
 
 func main() {
 	fmt.Println("Hello, Go Standard library")
-
+	fmt.Println("Hello, Go Standard library")
+	fmt.Println("Hello, Go Standard library")
 	resp, err := http.Get("https://jsonplaceholder.typicode.com/posts/1")
+
+
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
